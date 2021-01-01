@@ -1,0 +1,129 @@
+body header .container-fluid {
+  background-image: url("../image/Rectangle 6 (1).png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 100%;
+  width: 100%; }
+  body header .container-fluid nav .container .row ul li a {
+    font-size: 14px; }
+body header .container .carousel .carousel-indicators {
+  display: block !important;
+  left: auto !important;
+  top: 60% !important; }
+  body header .container .carousel .carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    right: 0 !important;
+    margin: -10px auto !important;
+    background-color: black !important; }
+body .saao {
+  border-bottom: 2px solid transparent; }
+  body .saao:hover {
+    border-bottom: 2px solid green;
+    transition: 1s ease; }
+body main section .container-fluid {
+  background-image: url("../image/Rectangle 6.6.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  height: 100%;
+  width: 100%; }
+body main section .container-fluid-hello {
+  margin-top: 100px;
+  background-image: url("../image/Rectangle 6.8.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+  width: 100%; }
+body main section .container-fluid-hello1 {
+  margin-top: 100px;
+  background-image: url("../image/Rectangle 6.7.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 100%;
+  width: 100%; }
+body main section .container-fluid-hello2 {
+  margin-top: 100px;
+  background-image: url("../image/Rectangle 6.5.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 100%;
+  width: 100%; }
+
+@media only screen and (min-width: 800px) {
+  .sec6_2 {
+    margin-top: -30% !important;
+    left: 35% !important;
+    height: 80px !important;
+    width: 80px !important; } }
+@media only screen and (max-width: 800px) {
+  .salom:nth-child(2) {
+    position: absolute;
+    float: left; } }
+@media only screen and (max-width: 800px) {
+  .loads {
+    width: 50%;
+    padding: 20px; } }
+@media only screen and (min-width: 800px) {
+  .sada {
+    transform: translate(10%, 35%); } }
+.card-image-2 {
+  width: 100%;
+  filter: brightness(130%); }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: ease 0.5s;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.card-header-over:hover .overlay {
+  opacity: 1; }
+
+.card-sec-3:hover .overlay {
+  opacity: 1; }
+
+.card-simple {
+  width: 100%;
+  height: 180px;
+  background-color: white;
+  transition: 0.5s ease;
+  box-shadow: 10px 10px 10px silver; }
+
+.card-simple:hover {
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+  transform: scale(1.2); }
+
+.sec6_1 {
+  margin-top: 100px !important; }
+
+.sec6_1:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease;
+  box-shadow: 5px 5px 5px silver; }
+
+.sec6_2 {
+  margin-top: -23%;
+  left: 35%;
+  height: 100px !important;
+  width: 100px !important; }
+
+.sec4_1:hover {
+  opacity: 0;
+  transition: 0.5s ease;
+  transform: scale(1.1); }
+
+/*# sourceMappingURL=style.css.map */
